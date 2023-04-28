@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="soce\config.h">
+      <Filter>commons</Filter>
+    </ClInclude>
+    <ClInclude Include="soce\maingame.h">
+      <Filter>mains</Filter>
+    </ClInclude>
+    <ClInclude Include="soce\playscene.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="soce\scenemanager.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="soce\titlescene.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="soce\scenebase.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="soce\player.h">
+      <Filter>PlayScene\objmanager</Filter>
+    </ClInclude>
+    <ClInclude Include="soce\barrett.h">
+      <Filter>PlayScene\objmanager</Filter>
+    </ClInclude>
+    <ClInclude Include="soce\enemy.h">
+      <Filter>PlayScene\objmanager</Filter>
+    </ClInclude>
+    <ClInclude Include="soce\objectmanager.h">
+      <Filter>PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="laststg_soce\laststg_backimg.h">
+      <Filter>laststg_</Filter>
+    </ClInclude>
+    <ClInclude Include="laststg_soce\laststg_barrett.h">
+      <Filter>laststg_</Filter>
+    </ClInclude>
+    <ClInclude Include="laststg_soce\laststg_boss.h">
+      <Filter>laststg_</Filter>
+    </ClInclude>
+    <ClInclude Include="laststg_soce\laststg_bossenemy.h">
+      <Filter>laststg_</Filter>
+    </ClInclude>
+    <ClInclude Include="laststg_soce\laststg_bosshoukou.h">
+      <Filter>laststg_</Filter>
+    </ClInclude>
+    <ClInclude Include="laststg_soce\laststg_bossSpawnWarning.h">
+      <Filter>laststg_</Filter>
+    </ClInclude>
+    <ClInclude Include="laststg_soce\laststg_clear.h">
+      <Filter>laststg_</Filter>
+    </ClInclude>
+    <ClInclude Include="laststg_soce\laststg_common.h">
+      <Filter>laststg_</Filter>
+    </ClInclude>
+    <ClInclude Include="laststg_soce\laststg_config.h">
+      <Filter>laststg_</Filter>
+    </ClInclude>
+    <ClInclude Include="laststg_soce\laststg_effect.h">
+      <Filter>laststg_</Filter>
+    </ClInclude>
+    <ClInclude Include="laststg_soce\laststg_enemies.h">
+      <Filter>laststg_</Filter>
+    </ClInclude>
+    <ClInclude Include="laststg_soce\laststg_fire.h">
+      <Filter>laststg_</Filter>
+    </ClInclude>
+    <ClInclude Include="laststg_soce\laststg_gameover.h">
+      <Filter>laststg_</Filter>
+    </ClInclude>
+    <ClInclude Include="laststg_soce\laststg_health.h">
+      <Filter>laststg_</Filter>
+    </ClInclude>
+    <ClInclude Include="laststg_soce\laststg_item.h">
+      <Filter>laststg_</Filter>
+    </ClInclude>
+    <ClInclude Include="laststg_soce\laststg_object.h">
+      <Filter>laststg_</Filter>
+    </ClInclude>
+    <ClInclude Include="laststg_soce\laststg_player.h">
+      <Filter>laststg_</Filter>
+    </ClInclude>
+    <ClInclude Include="laststg_soce\laststg_randquake.h">
+      <Filter>laststg_</Filter>
+    </ClInclude>
+    <ClInclude Include="laststg_soce\laststg_scenemanager.h">
+      <Filter>laststg_</Filter>
+    </ClInclude>
+    <ClInclude Include="laststg_soce\laststg_switchControl.h">
+      <Filter>laststg_</Filter>
+    </ClInclude>
+    <ClInclude Include="laststg_soce\laststg_title.h">
+      <Filter>laststg_</Filter>
+    </ClInclude>
+    <ClInclude Include="laststg_soce\laststg_works.h">
+      <Filter>laststg_</Filter>
+    </ClInclude>
+    <ClInclude Include="soce\backimg.h">
+      <Filter>PlayScene\objmanager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="mains">
+      <UniqueIdentifier>{21aced07-2403-4942-909d-90c2c01dba3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="commons">
+      <UniqueIdentifier>{9c7b1c2f-1026-4455-98c6-a705d03096e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene">
+      <UniqueIdentifier>{ecda4f14-afd3-4736-a640-ae2463995bef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene">
+      <UniqueIdentifier>{0b87676f-86ef-4cd2-9fb7-1fddfcf40e9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayScene\objmanager">
+      <UniqueIdentifier>{9cf206d8-a1da-4ab8-9ab1-9f1291df749b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TitleScene">
+      <UniqueIdentifier>{8bda0a99-8417-4d1e-bfe4-04a48f5b27e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="laststg_">
+      <UniqueIdentifier>{70655b2f-9266-44f0-aa82-886ef5783fc3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="soce\maingame.cpp">
+      <Filter>mains</Filter>
+    </ClCompile>
+    <ClCompile Include="soce\playscene.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="soce\scenemanager.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="soce\titlescene.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="soce\barrett.cpp">
+      <Filter>PlayScene\objmanager</Filter>
+    </ClCompile>
+    <ClCompile Include="soce\enemy.cpp">
+      <Filter>PlayScene\objmanager</Filter>
+    </ClCompile>
+    <ClCompile Include="soce\player.cpp">
+      <Filter>PlayScene\objmanager</Filter>
+    </ClCompile>
+    <ClCompile Include="soce\objectmanager.cpp">
+      <Filter>PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="soce\winmain.cpp">
+      <Filter>mains</Filter>
+    </ClCompile>
+    <ClCompile Include="laststg_soce\laststg_backimg.cpp">
+      <Filter>laststg_</Filter>
+    </ClCompile>
+    <ClCompile Include="laststg_soce\laststg_barrett.cpp">
+      <Filter>laststg_</Filter>
+    </ClCompile>
+    <ClCompile Include="laststg_soce\laststg_boss.cpp">
+      <Filter>laststg_</Filter>
+    </ClCompile>
+    <ClCompile Include="laststg_soce\laststg_bossenemy.cpp">
+      <Filter>laststg_</Filter>
+    </ClCompile>
+    <ClCompile Include="laststg_soce\laststg_bosshoukou.cpp">
+      <Filter>laststg_</Filter>
+    </ClCompile>
+    <ClCompile Include="laststg_soce\laststg_bossSpawnWarning.cpp">
+      <Filter>laststg_</Filter>
+    </ClCompile>
+    <ClCompile Include="laststg_soce\laststg_clear.cpp">
+      <Filter>laststg_</Filter>
+    </ClCompile>
+    <ClCompile Include="laststg_soce\laststg_common.cpp">
+      <Filter>laststg_</Filter>
+    </ClCompile>
+    <ClCompile Include="laststg_soce\laststg_effect.cpp">
+      <Filter>laststg_</Filter>
+    </ClCompile>
+    <ClCompile Include="laststg_soce\laststg_enemies.cpp">
+      <Filter>laststg_</Filter>
+    </ClCompile>
+    <ClCompile Include="laststg_soce\laststg_fire.cpp">
+      <Filter>laststg_</Filter>
+    </ClCompile>
+    <ClCompile Include="laststg_soce\laststg_gameover.cpp">
+      <Filter>laststg_</Filter>
+    </ClCompile>
+    <ClCompile Include="laststg_soce\laststg_health.cpp">
+      <Filter>laststg_</Filter>
+    </ClCompile>
+    <ClCompile Include="laststg_soce\laststg_item.cpp">
+      <Filter>laststg_</Filter>
+    </ClCompile>
+    <ClCompile Include="laststg_soce\laststg_object.cpp">
+      <Filter>laststg_</Filter>
+    </ClCompile>
+    <ClCompile Include="laststg_soce\laststg_player.cpp">
+      <Filter>laststg_</Filter>
+    </ClCompile>
+    <ClCompile Include="laststg_soce\laststg_randquake.cpp">
+      <Filter>laststg_</Filter>
+    </ClCompile>
+    <ClCompile Include="laststg_soce\laststg_scenemanager.cpp">
+      <Filter>laststg_</Filter>
+    </ClCompile>
+    <ClCompile Include="laststg_soce\laststg_switchControl.cpp">
+      <Filter>laststg_</Filter>
+    </ClCompile>
+    <ClCompile Include="laststg_soce\laststg_title.cpp">
+      <Filter>laststg_</Filter>
+    </ClCompile>
+    <ClCompile Include="laststg_soce\laststg_works.cpp">
+      <Filter>laststg_</Filter>
+    </ClCompile>
+    <ClCompile Include="soce\backimg.cpp">
+      <Filter>PlayScene\objmanager</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
